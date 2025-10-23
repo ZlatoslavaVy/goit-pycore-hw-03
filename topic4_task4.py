@@ -40,9 +40,7 @@ users.append({"name": "Kamelia Grossen", "birthday": "1995.10.27"})
 
 upcoming_birthdays = get_upcoming_birthdays(users)
 
-print("Список привітань на цьому тижні:")
-for item in upcoming_birthdays:
-    print(f"{item['name']} — {item['congratulation_date']}")
+print("Список привітань на цьому тижні:", upcoming_birthdays)
 
 
 
