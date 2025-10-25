@@ -1,4 +1,6 @@
 from datetime import datetime
+
+
 def get_days_from_today(date):
     try:
         set_date = datetime.strptime(date, "%Y-%m-%d")
